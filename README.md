@@ -11,7 +11,7 @@ This project is built on HTML5 combined with PHP, serving as my main thesis.
 - **JavaScript** 🌐 Adding dynamic features and interactions to the website.
 - **AJAX** 🔄 Web development technique using asynchronous JavaScript to update parts of a webpage without full reloads, facilitated by the XMLHttpRequest object.
 - **Chart.js Library** 📊 A JavaScript library for creating responsive and visually appealing charts on the web.
-- **PHP Icon (colored):** <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230080FF' width='20' height='20' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M21 2H3a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM3 20V6h18v14H3z'/%3E%3C/svg%3E" alt="PHP Icon" />
+- **PHP** - **PHP Icon (colored):** <img src="https://www.php.net//images/logos/php-logo.svg" alt="PHP Icon" width="20" height="20"/>
  Server-side logic, data management, and interaction with the database.
 
 ## Features
