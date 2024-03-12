@@ -11,7 +11,7 @@ This project is built on HTML5 combined with PHP, serving as my main thesis.
 - **JavaScript** 🌐 Adding dynamic features and interactions to the website.
 - **AJAX** 🔄 Web development technique using asynchronous JavaScript to update parts of a webpage without full reloads, facilitated by the XMLHttpRequest object.
 - **Chart.js Library** 📊 A JavaScript library for creating responsive and visually appealing charts on the web.
-- **PHP:** (colored): <?php Server-side logic, data management, and interaction with the database.
+- **PHP:** (red): <?php Server-side logic, data management, and interaction with the database.
 
 ## Features
 
