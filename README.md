@@ -1,28 +1,39 @@
-# Z9 MilkTea - Cửa Hàng Trà Sữa Tự Tự Vựa Trên Hệ Thống Thông Tin
+# Z9 MilkTea - Milk Tea For Your Life
 
-![Z9 MilkTea Logo](link_to_your_logo.png)
+## Introduction
 
-## Giới Thiệu
+This project is built on HTML5 combined with PHP, serving as my main thesis.
 
-Z9 MilkTea - Niên luận ngành Hệ Thống Thông Tin. Đây không chỉ là một cửa hàng trà sữa, mà còn là một dự án thực hành, sử dụng mã nguồn mở và các công nghệ web phổ biến.
+## Technologies Used
 
-## Công Nghệ Sử Dụng
+- **HTML:** Basic markup language for building the website structure.
+- **CSS:** Styling and decoration for a user-friendly interface.
+- **JavaScript:** Adding dynamic features and interactions to the website.
+- **AJAX** Is a web development technique using asynchronous JavaScript to update parts of a webpage without full reloads, facilitated by the XMLHttpRequest object.
+- **Chart.js Library** A JavaScript library for creating responsive and visually appealing charts on the web.
+- **PHP:** Server-side logic, data management, and interaction with the database.
 
-- **HTML:** Ngôn ngữ đánh dấu cơ bản để xây dựng cấu trúc trang web.
-- **CSS:** Định dạng và trang trí cho giao diện người dùng.
-- **JavaScript:** Thêm tính năng động và tương tác trên trang web.
-- **PHP:** Xử lý logic máy chủ, quản lý dữ liệu và tương tác với cơ sở dữ liệu.
+## Features
 
-## Tính Năng
+1. **Explore Our Products:** Discover a variety of refreshing beverages on our menu!
+2. **Order Online:** Conveniently select and order your favorite milk tea anytime, anywhere.
+3. **Search Products:** Quickly find products with an intuitive search functionality.
+4. **Manage Orders:** The system automatically handles order management, making it easy for you to track and process.
 
-1. **Xem Thông Tin Sản Phẩm:** Khám phá quán trà sữa với các loại thức uống ngon lành!!
-2. **Đặt Hàng Trực Tuyến:** Có thể chọn và đặt trà sữa yêu thích mọi lúc, mọi nơi.
-3. **Tìm Kiếm Sản Phẩm:** Tìm nhanh sản phẩm, hiển thị trực quan.
-4. **Quản Lý Đơn Hàng:** Hệ thống tự động quản lý đơn hàng, giúp bạn dễ dàng theo dõi và xử lý.
+## How to Use
 
-
-## Hướng Dẫn Sử Dụng
-
-1. Clone repository về máy local của bạn.
+1. Clone the repository to your local machine.
    ```bash
    git clone https://github.com/your-username/z9-milktea.git
+   
+2. Open your browser and launch the index.php file.
+
+3. Start exploring and customize it to meet your needs.
+
+## Contact
+
+If you have any questions, feedback, or just want to say hello, feel free to reach out:
+
+- **Email:** [taikonn09@gmail.com](mailto:taikonn09@gmail.com)
+- **Facebook:** [fb.com/tainef.f](https://www.facebook.com/tainef.f)
+- **Tel** [0988000697](tel:+0988000697)
