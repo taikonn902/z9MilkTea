@@ -1,10 +1,10 @@
 #❤️ Z9 MilkTea - Milk Tea For Your Life ❤️
 
-## Introduction
+## 👀 Introduction 👀
 
 This project is built on HTML5 combined with PHP, serving as my main thesis.
 
-## Technologies Used
+## 🛠️ Technologies Used 🛠️
 
 - **HTML** <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML Icon" width="20" height="20" style="fill: #E44D26"/> Basic markup language for building the website structure.
 - **CSS**  <img src="https://www.w3.org/Style/CSS/logos/standard-markup-css-logo.png" alt="CSS Icon" width="20" height="20" style="fill: #1572B6"/> Styling and decoration for a user-friendly interface.
@@ -14,14 +14,14 @@ This project is built on HTML5 combined with PHP, serving as my main thesis.
 - **PHP** <img src="https://www.php.net//images/logos/php-logo.svg" alt="PHP Icon" width="20" height="20"/>
  Server-side logic, data management, and interaction with the database.
 
-## Features
+## 🧐 Features 🧐
 
 1. **Explore Our Products:** Discover a variety of refreshing beverages on our menu!
 2. **Order Online:** Conveniently select and order your favorite milk tea anytime, anywhere.
 3. **Search Products:** Quickly find products with an intuitive search functionality.
 4. **Manage Orders:** The system automatically handles order management, making it easy for you to track and process.
 
-## How to Use
+## 🤔 How to Use 🤔
 
 1. Clone the repository to your local machine.
    ```bash
@@ -31,7 +31,7 @@ This project is built on HTML5 combined with PHP, serving as my main thesis.
 
 3. Start exploring and customize it to meet your needs.
 
-## Contact
+## 📞 Contact 📞
 
 If you have any questions, feedback, or just want to say hello, feel free to reach out:
 
