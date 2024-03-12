@@ -1,0 +1,390 @@
+/*======================================= nav-bar-page ================================*/
+.container-nav {
+    background-color: #fff;
+}
+
+.nav-admin-page {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.nav-admin-page .nav-item {
+    padding: 15px 23px;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.nav-item:after,
+.dropdown:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background-color: #221F20;
+    transition: all ease-in-out 0.3s;
+    transform: translateX(-50%);
+}
+
+.nav-item:hover:after,
+.dropdown:hover:after {
+    width: 100%;
+}
+
+.nav-admin-page li a {
+    color: #221F20;
+    font-weight: 600;
+    margin-left: 5px;
+    transition: all ease-in-out 0.3s;
+}
+
+.nav-admin-page .nav-item:hover {
+    border-bottom: none;
+}
+
+.dropdown {
+    padding: 15px 23px;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    z-index: 10;
+    position: absolute;
+    width: 250px;
+    top: 120%;
+    background-color: #FFD400;
+    text-align: center;
+    cursor: pointer;
+    left: 0;
+    transition: all ease-in-out 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.dropdown-item {
+    padding: 15px 0px;
+}
+
+.dropdown:hover .dropdown-menu {
+    top: 100%;
+    opacity: 1;
+    transition: all ease-in-out 0.3s;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.dropdown-item:hover {
+    background-color: #221F20;
+}
+
+.dropdown-item:hover a {
+    color: #FFD400;
+}
+
+/*======================================= top-left-content ================================*/
+
+#main-page {
+    margin-top: 20px;
+}
+
+.container-main-top-page {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+fieldset {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.left-content-top {
+    width: 18%;
+}
+
+.left-content-top legend,
+.right-content-top legend,
+.left-bottom-content legend,
+.right-content-bottom legend {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.shop-des-container {
+    padding: 5px 15px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    box-shadow: 0 8px 10px 0 rgb(0 0 0 / 10%);
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    color: #221f20;
+    border-top-left-radius: 20px;
+}
+
+.img-left-content-des {
+    width: 100px;
+    height: 100px;
+}
+
+.shop-info {
+    margin-top: 10px;
+    display: block;
+}
+
+.shop-info p {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.shop-info span {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.content-left-bottom {
+    margin-top: 20px;
+}
+
+/*======================================= top-right-content ================================*/
+
+.right-content-top {
+    width: 82%;
+    height: 455px;
+    max-height: 455px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888888 #f0f0f0;
+}
+
+.right-content-top::-webkit-scrollbar {
+    width: 3px;
+}
+
+.right-content-top::-webkit-scrollbar-thumb {
+    background-color: #888888;
+}
+
+.right-content-top::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+}
+
+.order-table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 98%;
+}
+
+.order-table th,
+.order-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.order-table th {
+    background-color: #FFD400;
+}
+
+.title-column {
+    color: #221F20;
+}
+
+.total-column {
+    color: #F80000;
+    font-weight: 600;
+}
+
+.message-table-orders {
+    text-align: center;
+    margin-top: 15%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.note-column{
+    color: #1E90FF;
+    font-size: 14px;
+    font-weight: 600;
+}
+.time-column{
+    width: 120px;
+}
+
+/*======================================= bottom-left-content ================================*/
+
+.container-main-bottom-page {
+    display: flex;
+    width: 95%;
+    margin: 25px auto;
+}
+
+.left-bottom-content {
+    width: 75%;
+    padding: 20px 20px;
+    height: 550px;
+}
+
+.action-filter {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0px auto;
+    padding: 10px 0;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+input[type="date"] {
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="date"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 10px rgba(0, 128, 0, 0.1);
+}
+
+.contaienr-btn {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-filter-sale {
+    padding: 15px 50px;
+    border: none;
+    background-color: #FFD400;
+    color: #221F20;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+}
+
+.btn-filter-sale:hover {
+    background-color: #221F20;
+    color: #FFD400;
+}
+
+.container-content-statistic {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.statistic-left {
+    width: 30%;
+    height: 350px;
+}
+
+.statistic-right {
+    width: 68%;
+    height: 350px;
+}
+
+.container-donhang,
+.container-doanhthu,
+.container-muanhieunhat {
+    padding: 10px 15px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    box-shadow: 0 8px 10px 0 rgb(0 0 0 / 10%);
+    width: 80%;
+    color: #221f20;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container-donhang {
+    margin-bottom: 15px;
+}
+
+.container-donhang p,
+.container-doanhthu p,
+.container-muanhieunhat p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.container-donhang span {
+    color: #1E90FF;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.container-doanhthu span {
+    color: #1E90FF;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.container-muanhieunhat span {
+    font-weight: 700;
+    font-size: 25px;
+    color: #1E90FF;
+}
+
+/*======================================= bottom-right-content ================================*/
+
+.right-content-bottom {
+    width: 25%;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.container-conntent-sales,
+.container-rank-sales {
+    padding: 5px 15px;
+    margin: 0px auto;
+    border: 1px solid lightgray;
+    box-shadow: 0 8px 10px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+    color: #221f20;
+    border-radius: 15px;
+}
+
+.title-sales {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.total-quantity {
+    color: #F80000;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container-rank-sales {
+    margin-top: 20px;
+}
+
+

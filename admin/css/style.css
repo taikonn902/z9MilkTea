@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Rethink+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+/*======================================= nav-bar-page-css ================================*/
+
+.container-nav {
+    background-color: #fff;
+}
+
+.nav-admin-page {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.nav-admin-page .nav-item {
+    padding: 15px 23px;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.nav-item:after,
+.dropdown:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background-color: #221F20;
+    transition: all ease-in-out 0.3s;
+    transform: translateX(-50%);
+}
+
+.nav-item:hover:after,
+.dropdown:hover:after {
+    width: 100%;
+}
+
+.nav-admin-page li a {
+    color: #221F20;
+    font-weight: 600;
+    margin-left: 5px;
+    transition: all ease-in-out 0.3s;
+}
+
+.nav-admin-page .nav-item:hover {
+    border-bottom: none;
+}
+
+.dropdown {
+    padding: 15px 23px;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    z-index: 10;
+    position: absolute;
+    width: 250px;
+    top: 120%;
+    background-color: #FFD400;
+    text-align: center;
+    cursor: pointer;
+    left: 0;
+    transition: all ease-in-out 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.dropdown-item {
+    padding: 15px 0px;
+}
+
+.dropdown:hover .dropdown-menu {
+    top: 100%;
+    opacity: 1;
+    transition: all ease-in-out 0.3s;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.dropdown-item:hover {
+    background-color: #221F20;
+}
+
+.dropdown-item:hover a {
+    color: #FFD400;
+}
