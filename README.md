@@ -6,7 +6,7 @@ This project is built on HTML5 combined with PHP, serving as my main thesis.
 
 ## Technologies Used
 
-- **HTML** <img src="https://www.svgviewer.dev/html5-logo.svg" alt="HTML Icon" width="20" height="20" style="fill: #E44D26"/> Basic markup language for building the website structure.
+- **HTML** <img src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML Icon" width="20" height="20" style="fill: #E44D26"/> Basic markup language for building the website structure.
 - **CSS** <img src="https://www.svgviewer.dev/css3-logo.svg" alt="CSS Icon" width="20" height="20" style="fill: #1572B6"/> Styling and decoration for a user-friendly interface.
 - **JavaScript** 🌐 Adding dynamic features and interactions to the website.
 - **AJAX** 🔄 Web development technique using asynchronous JavaScript to update parts of a webpage without full reloads, facilitated by the XMLHttpRequest object.
