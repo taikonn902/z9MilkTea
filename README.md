@@ -38,3 +38,4 @@ If you have any questions, feedback, or just want to say hello, feel free to rea
 - **Email:** [taikonn09@gmail.com](mailto:taikonn09@gmail.com)
 - **Facebook:** [fb.com/tainef.f](https://www.facebook.com/tainef.f)
 - **Tel** [0988000697](tel:+0988000697)
+- **Zalo** [0988000697](tel:+0988000697)
