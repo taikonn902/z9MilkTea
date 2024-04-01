@@ -25,7 +25,7 @@ This project is built on HTML5 combined with PHP, serving as my main thesis.
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/z9-milktea.git
+   git clone [https://github.com/your-username/z9-milktea.git](https://github.com/taikonn902/z9MilkTea.git)
    
 2. Open your browser and launch the index.php file.
 
